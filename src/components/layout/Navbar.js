@@ -9,13 +9,13 @@ const Navbar = () => {
   return (
     <StyledUl>
       <StyledLi>
-        <StyledA onClick={() => history.push('/')}>Hem</StyledA>
+        <StyledA onClick={() => history.push('/')}>Home</StyledA>
       </StyledLi>
       <StyledLi>
         <StyledA onClick={() => history.push('about')}>About</StyledA>
       </StyledLi>
       <DropDownLi>
-        <Dropbtn>Stad</Dropbtn>
+        <Dropbtn>City</Dropbtn>
         <DropDownContent>
           {' '}
           <SubA onClick={() => history.push('stockholm')}>Stockholm</SubA>

@@ -20,7 +20,7 @@ const Stockholm = () => {
         </Banner>
       </Hero>
       <Title title='Price of Servives' center />
-      <Services city={true} />
+      <Services city={false} />
     </>
   )
 }

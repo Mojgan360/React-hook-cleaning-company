@@ -4,11 +4,9 @@ import { MdSend } from 'react-icons/md'
 const ServiceForm = ({
   typeOfService,
   size,
-  price,
   handleTypeOfService,
   handleSize,
   handleSubmit,
-  handlePrice,
   city,
   edit,
 }) => {
